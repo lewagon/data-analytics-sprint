@@ -1,0 +1,30 @@
+.reveal {
+  font-size: 170%;
+}
+
+.rendered_html ul {
+  padding-left: 0 !important;
+}
+
+.rendered_html blockquote {
+  margin: 1em 0;
+  width: 100%;
+}
+
+.reveal.slide {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: 44px;
+  background-position: calc(100% - 50px) 50px;
+}
+
+@media(max-width: 760px) {
+  .reveal.slide {
+    background-size: 0;
+  }
+}
+
+h2 + .highlight, h3 + .highlight, h4 + .highlight {
+  margin-top: 1em;
+}
+
