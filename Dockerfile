@@ -6,6 +6,6 @@ RUN pip install pandas seaborn jupyter-offlinenotebook
 RUN rm -rf ./work
 
 RUN mkdir data
-COPY --chown=1000:100 data/AB_NYC_2019.csv data
+COPY --chown=1000:100 data/marketing_campaign.csv data
 COPY --chown=1000:100 ./Livecode.ipynb .
 COPY --chown=1000:100 ./Challenge.ipynb .
